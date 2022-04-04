@@ -10,7 +10,7 @@ namespace ParseQuestAnswers
     {
         public string ParseSql(string contextString)
         {
-            var file = new StreamWriter("testlinq.txt");
+            var file = new StreamWriter("ResParse.txt");
             var db = new DataContext(contextString);
             var dataTime = new DateTime(2022, 3, 1);
             var quest = db.GetTable<QuestAnswers>()                          
