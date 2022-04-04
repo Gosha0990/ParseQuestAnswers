@@ -60,6 +60,7 @@ namespace ParseQuestAnswers
                 kitchen = 0;
                 rest = 0;
                 file.WriteLine(resSql);
+                file.WriteLine("--------------------------------------------------------");
             }
             
             return "Nice";
