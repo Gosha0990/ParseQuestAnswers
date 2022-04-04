@@ -54,7 +54,6 @@ namespace ParseQuestAnswers
                         sessionId = i.SessionId;
                     }
                 }
-                //resSql += "\n" + "\tHell: " + hell + "\tRack: " + rack + "\tKitchen: " + kitchen + "\tRest: " + rest;
                 resSql = String.Format("Подразделение: {0}, Зал: {1}, Стойка: {2}, Кухня: {3}, Rest: {4}",empDepNum,hell,rack,kitchen,rest);
                 hell = 0;
                 rack = 0;
