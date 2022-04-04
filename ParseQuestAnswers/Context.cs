@@ -27,7 +27,6 @@ namespace ParseQuestAnswers
             int rest = 0;
             foreach (var item in quest)
             {
-                resSql += "\n"+"________________________";
                 foreach (var i in item)
                 {
                     if(sessionId == null)
