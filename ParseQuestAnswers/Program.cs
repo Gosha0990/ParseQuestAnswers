@@ -14,7 +14,9 @@ namespace ParseQuestAnswers
         {
             string connetionstring = @"Data Source=S2010;Initial Catalog=Voiting;Persist Security Info=True;User ID=geyorgy;Password=rYweGhf435!";
             var resSql = new Context();
+            var resSql1 = new TestLinqToSql();
             Console.WriteLine(resSql.ParseSql(connetionstring));
+            Console.WriteLine(resSql1.GetResultParseSql(connetionstring));
             Console.ReadLine();
         }
     }

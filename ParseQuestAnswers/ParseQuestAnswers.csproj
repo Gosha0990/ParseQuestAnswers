@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JobType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -52,8 +53,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="QuestAnswers.cs" />
-    <Compile Include="StreamFiles.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="TestLinqToSql.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
