@@ -62,7 +62,7 @@ namespace ParseQuestAnswers
                 file.WriteLine(resSql);
                 file.WriteLine("--------------------------------------------------------");
             }
-            
+            file.Close();
             return "Nice";
         }
     }
